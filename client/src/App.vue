@@ -21,7 +21,7 @@ export default {
     const users = ref([])
 
     onMounted(async () => {
-      const res = await fetch('http://localhost:3000/app/users')
+      const res = await fetch('http://j80o084ko4oogc8w4ggw8kgo.devartist.art/app/users')
       console.log(res);
       users.value = await res.json()
     })
