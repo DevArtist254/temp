@@ -7,6 +7,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "iNode": "npm install & npm --prefix client run iMode",
     "server": "nodemon server/server.js",
     "build": "npm --prefix client run build",
     "start": "NODE_ENV=production node server/server.js"
