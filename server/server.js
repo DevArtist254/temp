@@ -10,7 +10,6 @@ app.use(cors());
 
 // Middleware
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "../client/dist")));
 
 app.use("/app", require("./routes/api"));
 
